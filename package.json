@@ -1,0 +1,41 @@
+{
+  "name": "reui",
+  "version": "1.0.0",
+  "displayName": "ReUI",
+  "description": "A VS Code theme based on React's website colors",
+  "publisher": "barrsan",
+  "author": "Alex Baretsky <41ax@mail.ru>",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barrsan/reui-vscode-theme"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ReUI (react)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/reui-react.json"
+      },
+      {
+        "label": "ReUI (react-native)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/reui-react-native.json"
+      }
+    ]
+  },
+  "keywords": [
+    "Vscode",
+    "Theme",
+    "react",
+    "react-native",
+    "reui"
+  ]
+}
