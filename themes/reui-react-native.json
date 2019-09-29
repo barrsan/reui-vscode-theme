@@ -1,5 +1,5 @@
 {
-  "name": "React Italic Theme",
+  "name": "ReUI (react-native)",
   "type": "dark",
   "colors": {
     "activityBar.background": "#282c34",
@@ -233,17 +233,25 @@
       }
     },
     {
-      "name": "Support.Class",
+      "name": "Components",
       "scope": [
         "support.class",
-        "support.class.component",
+        "support.class.component"
         //"meta.jsx.children",
+      ],
+      "settings": {
+        "foreground": "#fac863" // <Field />
+      }
+    },
+    {
+      "name": "Support.Class",
+      "scope": [
         "constant.numeric",
         "punctuation.terminator.statement",
         "support.variable.property.dom"
       ],
       "settings": {
-        "foreground": "#fac863" // <Field />
+        "foreground": "#fc929e" // <Field />
       }
     },
     {
