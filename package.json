@@ -1,6 +1,6 @@
 {
   "name": "reui",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "displayName": "ReUI",
   "description": "A VS Code theme based on React's website colors",
   "publisher": "barrsan",
@@ -20,14 +20,24 @@
   "contributes": {
     "themes": [
       {
-        "label": "ReUI (react)",
+        "label": "ReUI Default Bordered (react)",
         "uiTheme": "vs-dark",
-        "path": "./themes/reui-react.json"
+        "path": "./themes/reui-react-default-bordered.json"
       },
       {
-        "label": "ReUI (react-native)",
+        "label": "ReUI Default Bordered (react-native)",
         "uiTheme": "vs-dark",
-        "path": "./themes/reui-react-native.json"
+        "path": "./themes/reui-react-native-default-bordered.json"
+      },
+      {
+        "label": "ReUI Mirage (react)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/reui-react-mirage.json"
+      },
+      {
+        "label": "ReUI Mirage (react-native)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/reui-react-native-mirage.json"
       }
     ]
   },
