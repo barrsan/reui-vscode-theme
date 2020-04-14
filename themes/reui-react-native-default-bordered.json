@@ -106,6 +106,8 @@
     "sideBarSectionHeader.background": "#282c34",
     "statusBar.background": "#282c34",
     "statusBar.foreground": "#ddd",
+    "statusBar.noFolderBackground": "#282c34",
+    "statusBar.noFolderForeground": "#ddd",
     "tab.activeBorder": "#ddd",
     "tab.inactiveBackground": "#282c34",
     "tab.inactiveForeground": "#eee",
