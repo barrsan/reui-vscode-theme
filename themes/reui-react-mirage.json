@@ -398,24 +398,6 @@
       }
     },
     {
-      "name": "Console",
-      "scope": ["support.type.object.console", "support.class.console.tsx"],
-      "settings": {
-        "foreground": "#fac863",
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Console.TSX",
-      "scope": [
-        "variable.other.object.tsx"
-      ],
-      "settings": {
-        "foreground": "#fac863",
-        "fontStyle": "italic"
-      }
-    },
-    {
       "name": "Function.Arrow",
       "scope": ["storage.type.function.arrow", "meta.function.arrow"],
       "settings": {
@@ -447,6 +429,16 @@
       ],
       "settings": {
         "foreground": "#fac863"
+      }
+    },
+    {
+      "name": "Dart.Constant",
+      "scope": [
+        "constant.language.dart"
+      ],
+      "settings": {
+        "foreground": "#ff8b50",
+        "fontStyle": "italic"
       }
     },
     {
