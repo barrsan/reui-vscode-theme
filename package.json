@@ -1,11 +1,14 @@
 {
   "name": "reui",
-  "version": "1.1.6",
+  "version": "1.2.0",
   "displayName": "ReUI",
   "description": "A VS Code theme based on React's website colors",
   "publisher": "barrsan",
   "author": "Alex Baretsky <41ax@mail.ru>",
   "icon": "icon.png",
+  "scripts": {
+    "build": "vsce package"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/barrsan/reui-vscode-theme"
@@ -20,24 +23,54 @@
   "contributes": {
     "themes": [
       {
-        "label": "ReUI Default Bordered (react)",
+        "label": "ReUI",
         "uiTheme": "vs-dark",
-        "path": "./themes/reui-react-default-bordered.json"
+        "path": "./themes/reui.json"
       },
       {
-        "label": "ReUI Default Bordered (react-native)",
+        "label": "ReUI (Italic)",
         "uiTheme": "vs-dark",
-        "path": "./themes/reui-react-native-default-bordered.json"
+        "path": "./themes/reui-italic.json"
       },
       {
-        "label": "ReUI Mirage (react)",
+        "label": "ReUI Mirage",
         "uiTheme": "vs-dark",
-        "path": "./themes/reui-react-mirage.json"
+        "path": "./themes/reui-mirage.json"
       },
       {
-        "label": "ReUI Mirage (react-native)",
+        "label": "ReUI Mirage (Italic)",
         "uiTheme": "vs-dark",
-        "path": "./themes/reui-react-native-mirage.json"
+        "path": "./themes/reui-mirage-italic.json"
+      },
+      {
+        "label": "ReUI II",
+        "uiTheme": "vs-dark",
+        "path": "./themes/reui-2.json"
+      },
+      {
+        "label": "ReUI II (Italic)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/reui-2-italic.json"
+      },
+      {
+        "label": "ReUI II Mirage",
+        "uiTheme": "vs-dark",
+        "path": "./themes/reui-2-mirage.json"
+      },
+      {
+        "label": "ReUI II Mirage (Italic)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/reui-2-mirage-italic.json"
+      },
+      {
+        "label": "ReUI II Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/reui-2-dark.json"
+      },
+      {
+        "label": "ReUI II Dark (Italic)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/reui-2-dark-italic.json"
       }
     ]
   },
