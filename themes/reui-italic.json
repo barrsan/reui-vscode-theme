@@ -169,7 +169,8 @@
     {
       "scope": [
         "storage.type.function.arrow",
-        "meta.function.arrow"
+        "meta.function.arrow",
+        "keyword.operator"
       ],
       "settings": {
         "fontStyle": "normal"
@@ -335,7 +336,8 @@
         "entity.name.tag.open.jsx",
         "entity.name.tag.close.jsx",
         "entity.name.tag.tsx",
-        "entity.name.tag.html"
+        "entity.name.tag.html",
+        "entity.name.tag.localname.xml"
       ],
       "settings": {
         "foreground": "#8be9ee"

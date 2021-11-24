@@ -172,7 +172,8 @@
     {
       "scope": [
         "storage.type.function.arrow",
-        "meta.function.arrow"
+        "meta.function.arrow",
+        "keyword.operator"
       ],
       "settings": {
         "fontStyle": "normal"
@@ -228,7 +229,8 @@
         "support.variable.property.dom",
         "keyword.operator",
         "keyword.operator.new",
-        "entity.name.tag.html"
+        "entity.name.tag.html",
+        "entity.name.tag.localname.xml"
       ],
       "settings": {
         "foreground": "#f38e9a"
