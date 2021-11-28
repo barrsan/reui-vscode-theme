@@ -158,6 +158,8 @@
         "variable.parameter",
         "variable.other.readwrite",
         "meta.object-literal.key",
+        "meta.definition.variable.ts variable.other.constant",
+        "meta.definition.variable.tsx variable.other.constant",
         "source.dart",
         "keyword.operator.comparison.dart"
       ],
@@ -193,6 +195,7 @@
       "scope": [
         "keyword.operator",
         "keyword.operator.new",
+        "punctuation.decorator.ts",
         "support.class",
         "support.class.component",
         "constant.numeric",
@@ -222,7 +225,9 @@
     },
     {
       "scope": [
-        "meta.selector.css"
+        "meta.selector.css",
+        "entity.name.tag.nesting.css",
+        "entity.name.tag.reference.scss"
       ],
       "settings": {
         "foreground": "#ff6e6e"
@@ -258,6 +263,14 @@
         "type",
         "support.type",
         "source.css",
+        "source.css support.type.property-name",
+				"source.sass support.type.property-name",
+				"source.scss support.type.property-name",
+				"source.less support.type.property-name",
+				"source.stylus support.type.property-name",
+				"source.postcss support.type.property-name",
+				"support.type.property-name.css",
+				"support.type.vendored.property-name",
         "entity.other.inherited-class",
         "entity.name.type",
         "entity.name.class",
@@ -269,10 +282,12 @@
     },
     {
       "scope": [
-        "constant.language.boolean",
-        "constant.language.null",
+				"constant.language.boolean",
+				"constant.language.json",
+				"constant.language.infinity",
+				"constant.language.nan",
         "constant.language.undefined",
-        "constant.language.json.comments",
+				"constant.language.null",
         "constant.language.dart"
       ],
       "settings": {
@@ -287,7 +302,11 @@
         "meta.brace.round",
         "meta.array.literal",
         "entity.name.class.decorator",
-        "variable.other.readwrite.decorator"
+        "meta.decorator.ts",
+        "variable.other.readwrite.decorator",
+        "tag.decorator.js entity.name.tag.js",
+				"tag.decorator.js punctuation.definition.tag.js",
+        "meta.decorator meta.function-call entity.name.function"
       ],
       "settings": {
         "foreground": "#88c6be"
@@ -295,9 +314,12 @@
     },
     {
       "scope": [
-        "variable.other.constant",
         "variable.parameter.keyframe-list.css",
-        "support.constant.property-value.misc.css"
+        "support.constant.property-value.misc.css",
+        "meta.property-list",
+				"meta.brace.square",
+        "variable.other.constant.property",
+        "variable.other.constant"
       ],
       "settings": {
         "foreground": "#27e2f1"
@@ -305,7 +327,6 @@
     },
     {
       "scope": [
-        "variable.other.constant",
         "entity.name.tag.open.jsx",
         "entity.name.tag.close.jsx",
         "entity.name.tag.tsx",
@@ -327,7 +348,8 @@
     },
     {
       "scope": [
-        "variable.other.property"
+        "variable.other.property",
+        "source.css.scss entity.name.tag"
       ],
       "settings": {
         "foreground": "#beedff"
@@ -337,11 +359,17 @@
       "scope": [
         "function",
         "support.constant.media.css",
+        "meta.definition.function",
+        "meta.definition.method",
+        "meta.function",
         "entity.name.function",
+				"variable.function",
+				"keyword.other.special-method",
         "support.function",
         "support.class.builtin",
         "keyword.other.name-of-parameter",
-        "constructor"
+        "constructor",
+        "meta.object.member meta.function-call entity.name.function"
       ],
       "settings": {
         "foreground": "#79b6f2"
