@@ -361,7 +361,6 @@
         "support.constant.media.css",
         "meta.definition.function",
         "meta.definition.method",
-        "meta.function",
         "entity.name.function",
 				"variable.function",
 				"keyword.other.special-method",
@@ -369,6 +368,7 @@
         "support.class.builtin",
         "keyword.other.name-of-parameter",
         "constructor",
+        "meta.function-call entity.name.function",
         "meta.object.member meta.function-call entity.name.function"
       ],
       "settings": {
