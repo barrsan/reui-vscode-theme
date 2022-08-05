@@ -10,6 +10,8 @@
     "activityBarBadge.foreground": "#191A21",
     "badge.background": "#44475A",
     "badge.foreground": "#F8F8F2",
+    "commandCenter.background": "#343746",
+    "commandCenter.border": "#3a3b4b",
     "breadcrumb.activeSelectionForeground": "#F8F8F2",
     "breadcrumb.background": "#282c34",
     "breadcrumb.focusForeground": "#F8F8F2",

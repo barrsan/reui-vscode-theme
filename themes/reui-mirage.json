@@ -11,6 +11,8 @@
     "activityBarBadge.foreground": "#191A21",
     "badge.background": "#44475A",
     "badge.foreground": "#F8F8F2",
+    "commandCenter.background": "#1C2E44",
+    "commandCenter.border": "#24344b",
     "breadcrumb.activeSelectionForeground": "#F8F8F2",
     "breadcrumb.background": "#18273a",
     "breadcrumb.focusForeground": "#F8F8F2",
